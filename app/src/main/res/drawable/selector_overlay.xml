@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:enterFadeDuration="200"
+    android:exitFadeDuration="200">
+
+    <!-- pressed -->
+    <item android:drawable="@color/colorOverlay" android:state_pressed="true"/>
+    <!-- focused -->
+    <item android:drawable="@color/colorOverlay" android:state_focused="true"/>
+    <!-- selected -->
+    <item android:drawable="@color/colorOverlay" android:state_selected="true"/>
+    <!-- default -->
+    <item android:drawable="@color/transparent"/>
+</selector>
